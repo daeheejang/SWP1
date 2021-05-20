@@ -1,2 +1,2 @@
-jang dae hee: 20213070ho
+jang dae hee: 20213070
 i love guitar
