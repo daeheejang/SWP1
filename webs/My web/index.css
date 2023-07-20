@@ -1,0 +1,58 @@
+h1{color:green; font-size:20px; text-align:center;}
+#topMenu{
+    height: 30px;
+    width: 850px;
+}
+
+#topMenu ul li{
+    list-style:none;
+    color:white;
+    background-color:white;
+    float:left;
+    padding: 8px 15px;
+    line-height:30px;
+    vertical-align:auto;
+    text-align:center;
+}
+    #topMenu.menuLink {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        width: 150px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: "Trebuchet MS", Dotum, Arial;
+    }
+
+#koomin{
+    display:block;
+    margin:auto;
+    width:300px;
+    height:150px;
+}
+
+#tet1{
+    text-align:center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#jimi {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+}
+
+#tet2 {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#quiz {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}

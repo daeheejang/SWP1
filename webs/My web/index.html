@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>MY Web</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <h1>나만의 웹페이지</h1>
+    <nav id="topMenu">
+        <ul>
+            <li><a class="menuLink" href="#">About me</a></li>
+            <li><a class="menuLink" href="#">About Like</a></li>
+            <li><a class="menuLink" href="#">Quiz</a></li>
+        </ul>
+    </nav>
+    <br><br><br>
+
+    <img id="koomin" src="koomin.jpg"></img>
+
+    <div id="tet1">
+        <p>내 이름은 쿠민이야!</p>
+        <p>올해 22살이었는데 20살이 되었어..ㅎㅎ</p>
+        <br>
+        <p>나의 취미에 대해 설명해줄게!</p>
+        <p>두구두구두구두구두구두구두구</p>
+    </div>
+    <br><br>
+    <img id="jimi" src="jimi.jfif"></img>
+
+    <div id="tet2">
+        <p>정답은 일렉기타야!</p>
+        <p>이 사진의 주인공은 지미 헨드릭스!</p>
+        <p>전설적인 기타리스트지......!</p><br>
+        <p>문제를 맞춰봐!</p>
+    </div>
+    <div id="quiz">
+        <p> 1. 다음 중 내가 가장 좋아하는 색깔은?</p>
+
+            <input type="radio" name="colorName" value="v1">빨강<br>
+            <input type="radio" name="colorName" value="v2">노랑<br>
+            <input type="radio" name="colorName" value="v3">초록<br>
+            <input type="radio" name="colorName" value="v4">파랑<br>
+            <input type="button" name="선택" value="정답확인" onclick="checkAnswer()">
+
+        <p id="check"></p>
+        <script type="text/javascript">
+            function checkAnswer() {
+                if (form.colorName[0].checked == true) document.getElementById("check").innerHTML = "정답입니다.";
+                else document.getElementById("check").innerHTML = "오답입니다.";
+            }
+        </script>
+    </div>
+</body>
+</html>
